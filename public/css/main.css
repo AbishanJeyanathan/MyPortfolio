@@ -1,0 +1,181 @@
+@charset "UTF-8"; /* CSS Document */ 
+/* The body tag style applies to all elements on the page */ 
+body 
+{ 
+    background-color: rgb(255, 255, 255); 
+    font-family: Verna, Geneva, Arial, sans-serif; 
+    background-image: url("https://images8.alphacoders.com/357/thumb-1920-357188.jpg");
+    background-attachment: fixed;
+    padding:0px; 
+    margin:0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+#wrapper
+{
+    text-shadow: 2px 2px 5px aqua;
+    color: aqua;
+}
+
+
+
+
+.nav img
+{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.home
+{
+    text-shadow: 2px 2px 5px white;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+
+}
+
+.home video
+{
+    padding-left: 325px;
+}
+
+.about
+{
+    text-shadow: 2px 2px 5px white;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+
+}
+
+.contact
+{
+    text-shadow: 2px 2px 5px white;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: aqua;  
+
+
+}
+
+
+
+p
+{
+    text-shadow: 2px 2px 5px white;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(255, 255, 255);
+
+}
+.projects
+{
+    text-shadow: 2px 2px 5px white;
+    padding: 50px 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+ 
+}
+
+input[type=text], select, textarea 
+{
+    width: 100%;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+input[type=submit] 
+{
+    background-color: aqua;
+    height: 40px;
+    width: 80px;
+    color: white;
+}
+
+input[type=submit]:hover
+{
+    background-color: black;
+}
+
+#banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+}
+
+.options
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+    display: inline;
+}
+
+li {
+    align-items: center;
+    display: inline-block;
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 20px 107px;
+    padding-bottom: 50px;
+}    
+    
+a:link {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+}
+      
+a:visited {
+        color: rgb(255, 255, 255);
+        background-color: transparent;
+        text-decoration: none;
+}
+      
+a:hover {
+        color: rgb(255, 0, 0);
+        background-color: transparent;
+        text-decoration: none;
+}
+      
+a:active {
+        color: rgb(0, 17, 255);
+        background-color: transparent;
+        text-decoration: none; 
+}
+
+
+
+#footer
+{
+    
+    padding: 5%;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    position: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    
+}
+h3
+{
+    color: white;
+}
